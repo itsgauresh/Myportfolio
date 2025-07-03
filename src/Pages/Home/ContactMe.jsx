@@ -72,7 +72,7 @@ export default function ContactMe() {
         </label>
 
         <div>
-          <button type="submit" className="btn btn-primary contact--form--btn">Submit</button>
+          <button type="submit" className="btn btn-outline-primary">Submit</button>
         </div>
       </form>
     </section>
