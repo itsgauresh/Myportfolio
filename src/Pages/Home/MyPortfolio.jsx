@@ -6,8 +6,8 @@ export default function MyPortfolio() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: false, // set to false if you want repeated animations
-      mirror: true, // allows reverse scroll animations
+      once: false,
+      mirror: true,
     });
   }, []);
 
@@ -53,7 +53,23 @@ export default function MyPortfolio() {
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
+                
+                {/* ✅ Tech Stack Logos */}
+                {item.techstack && (
+                  <div className="techstack-logos">
+                    {item.techstack.map((tech, techIndex) => (
+                      <img
+                        key={techIndex}
+                        src={tech.logo}
+                        alt={tech.name}
+                        title={tech.name}
+                        className="tech-logo"
+                      />
+                    ))}
+                  </div>
+                )}
               </div>
+
               <a
                 href={item.url}
                 className="text-sm portfolio--link"

@@ -22,6 +22,7 @@ export default function Certifications() {
             <div className="certifications--section--img">
               <img src={item.src} alt={item.title} />
             </div>
+            
             <div className="certifications--section--card--content">
               <h3 className="certifications--section--title">{item.title}</h3>
               <p className="certifications--section--description">{item.description}</p>
@@ -30,12 +31,13 @@ export default function Certifications() {
                   href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-outline-primary"
+                  className="certbtn btn-outline-primary"
                 >
                   View Certificate →
                 </a>
               )}
             </div>
+            
           </div>
         ))}
       </div>

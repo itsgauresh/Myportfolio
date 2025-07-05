@@ -55,6 +55,34 @@
       "description": "AWS, 2025",
       "src": "./img/aws.svg",
       "link": "https://drive.google.com/file/d/1RkND35fnV7YVKRm0qkrJgoRym6TLPe1G/view?usp=sharing"
+    },
+    {
+      "id": "9",
+      "title": "Software Engineering",
+      "description": "Electronic Arts, 2025",
+      "src": "./img/ea.svg",
+      "link": "https://drive.google.com/file/d/11KsWEkpgF2PCrpom4nQJ82ovOnBSWW4C/view?usp=sharing"
+    },
+    {
+      "id": "10",
+      "title": "Data Visualisation",
+      "description": "TATA Forage, 2024",
+      "src": "./img/tata.svg",
+      "link": "https://drive.google.com/file/d/1dHdJYAK0e_vs8RYyx7P-Hex6KbN7zRzh/view?usp=sharing"
+    },
+    {
+      "id": "11",
+      "title": "Agile Scrum in Practice",
+      "description": "Infosys Springboard, 2025",
+      "src": "./img/infi.svg",
+      "link": "https://drive.google.com/file/d/1bT-2C3QoYqcz-hWc2lxh_gTkcVCI389f/view?usp=sharing"
+    },
+    {
+      "id": "12",
+      "title": "Data Analytics",
+      "description": "Deloitte Australia, 2025",
+      "src": "./img/d..svg",
+      "link": "https://drive.google.com/file/d/1Azl8oHw2bnUE0lJyvH6DuepgA4jNCksI/view?usp=sharing"
     }
   ],
   "skills": [
@@ -85,29 +113,74 @@
   ],
   "portfolio": [
     {
-      "id": "1",
-      "src": "./img/rad.png",
-      "title": "Result Analytics Dashboard",
-      "description": "A web app that visualizes student performance data and predicts academic outcomes using real-time charts and machine learning.",
-      "link": "View On Github",
-      "url": "https://github.com/itsgauresh/Result-Analytics-Dashboard.git"
+  "id": "1",
+  "src": "./img/rad.png",
+  "title": "Result Analytics Dashboard",
+  "description": "A web app that visualizes student performance data and predicts academic outcomes using real-time charts and machine learning.",
+  "link": "View On Github",
+  "url": "https://github.com/itsgauresh/Result-Analytics-Dashboard.git",
+  "techstack": [
+    {
+      "name": "React",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     },
     {
-      "id": "2",
-      "src": "./img/wp.jpg",
-      "title": "Weather App",
-      "description": "A responsive web app built with HTML, CSS, and JavaScript that shows real-time weather data for any city using the OpenWeatherMap API.",
-      "link": "View On Github",
-      "url": "https://github.com/itsgauresh/weatherapp.git"
+      "name": "Express",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
     },
     {
-      "id": "3",
-      "src": "./img/ai.jpg",
-      "title": "AI based image generator",
-      "description": "Built a full-stack AI image generator using React and OpenAI's DALL·E API to create images from text prompts.",
-      "link": "View On Github",
-      "url": "https://github.com/itsgauresh/weatherapp.git"
+      "name": "MongoDB",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
     }
+  ]
+},
+
+    {
+  "id": "2",
+  "src": "./img/wp.jpg",
+  "title": "Weather App",
+  "description": "A responsive web app built with HTML, CSS, and JavaScript that shows real-time weather data for any city using the OpenWeatherMap API.",
+  "link": "View On Github",
+  "url": "https://github.com/itsgauresh/weatherapp.git",
+  "techstack": [
+    {
+      "name": "HTML",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+      "name": "CSS",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
+      "name": "JavaScript",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    }
+  ]
+},
+    {
+  "id": "3",
+  "src": "./img/ai.jpg",
+  "title": "AI based image generator",
+  "description": "Built a full-stack AI image generator using React and OpenAI's DALL·E API to create images from text prompts.",
+  "link": "View On Github",
+  "url": "https://github.com/itsgauresh/AI-based-image-generator.git",
+  "techstack": [
+    {
+      "name": "React",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      "name": "Python",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+
+    {
+      "name": "ChatGPT",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+    }
+  ]
+}
+
   ],
   "achievements": [
   {
